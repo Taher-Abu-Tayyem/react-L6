@@ -5,7 +5,7 @@ const products = [
    description:
      "Lorem ipsum, dolor sit amet consectetur adipisicing elite. Sequi, perferendis beatae asperiores.",
    price: 100,
-imageLink: "https://res.cloudinary.com/ddt1tb3u0/image/upload/v1762171415/Paper_Plane_of_Liberty_Print_Crew_Neck_Short_Sleeve_T-Shirts_-_Grey___XL_bpmsaa.png",
+imageLink: "https://images.pexels.com/photos/31970812/pexels-photo-31970812.jpeg",
  },
  {
    id: 2,
@@ -13,7 +13,7 @@ imageLink: "https://res.cloudinary.com/ddt1tb3u0/image/upload/v1762171415/Paper_
    description:
      "Lorem ipsum, dolor sit amet consectetur adipisicing elite. Sequi, perferendis beatae asperiores.",
    price: 200,
-   imageLink: "https://res.cloudinary.com/ddt1tb3u0/image/upload/v1762171593/1646822799c97e5f9754d3b3314b4e6ffd848ad22d_thumbnail_900x_xi5e6x.webp",
+   imageLink: "https://images.pexels.com/photos/5900774/pexels-photo-5900774.jpeg",
  },
  {
    id: 3,
@@ -21,7 +21,7 @@ imageLink: "https://res.cloudinary.com/ddt1tb3u0/image/upload/v1762171415/Paper_
    description:
      "Lorem ipsum, dolor sit amet consectetur adipisicing elite. Sequi, perferendis beatae asperiores.",
    price: 300,
-   imageLink: "https://res.cloudinary.com/ddt1tb3u0/image/upload/v1762171145/Mens_NASA_Space_Bear_Print_O-Neck_Casual_Loose_Short_Sleeve_T-Shirt_myz9ib.png",
+   imageLink: "https://images.pexels.com/photos/28976236/pexels-photo-28976236.jpeg",
  },
  {
    id: 4,
@@ -29,7 +29,7 @@ imageLink: "https://res.cloudinary.com/ddt1tb3u0/image/upload/v1762171415/Paper_
    description:
      "Lorem ipsum, dolor sit amet consectetur adipisicing elite. Sequi, perferendis beatae asperiores.",
    price: 400,
-   imageLink: "https://res.cloudinary.com/ddt1tb3u0/image/upload/v1762171167/1658329192737168ff6ad063452563108e1de4d132_thumbnail_900x_p8oh2b.webp",
+   imageLink: "https://images.pexels.com/photos/9001223/pexels-photo-9001223.jpeg",
  },
 ];
 module.exports = products;
