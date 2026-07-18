@@ -1,4 +1,3 @@
-import React, { Component } from 'react'
 
         const DetailsThumb = ({images, tab, myRef}) => {
         return (
