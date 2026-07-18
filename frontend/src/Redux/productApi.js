@@ -4,7 +4,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 // Define a service using a base URL and expected endpoints
 export const productApi = createApi({
   reducerPath: 'productApi',
-  baseQuery: fetchBaseQuery({ baseUrl: 'http://localhost:5000/' }),
+  baseQuery: fetchBaseQuery({ baseUrl: 'https://react-l6.onrender.com/' }),
   endpoints: (builder) => ({
     getproductByName: builder.query({
       query: (name) => `products`,
@@ -15,7 +15,7 @@ export const productApi = createApi({
 //to get one profuct by id
 export const oneProductApi = createApi({
   reducerPath: 'oneProductApi',
-  baseQuery: fetchBaseQuery({ baseUrl: 'http://localhost:5000/' }),
+  baseQuery: fetchBaseQuery({ baseUrl: 'https://react-l6.onrender.com/' }),
   endpoints: (builder) => ({
     getOneProductName: builder.query({
       query: (name) => `products/${name}`,
