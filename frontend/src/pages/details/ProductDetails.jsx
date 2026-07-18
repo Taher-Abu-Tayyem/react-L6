@@ -1,7 +1,7 @@
 import "./ProductDetails.css";
 import { useGetOneProductNameQuery } from "../../Redux/productApi";
 import { useParams } from "react-router-dom";
-import { Box, Button,Badge, CircularProgress, IconButton, Stack, styled, Typography } from "@mui/material";
+import { Box, Button,Badge, CircularProgress, IconButton , styled, Typography } from "@mui/material";
 import { useRef, useState } from "react";
 import DetailsThumb from "./DetailsThumb";
 import { Add, Remove } from "@mui/icons-material";
