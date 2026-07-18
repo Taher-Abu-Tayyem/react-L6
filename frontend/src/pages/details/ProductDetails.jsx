@@ -1,10 +1,10 @@
 import "./ProductDetails.css";
 import { useGetOneProductNameQuery } from "../../Redux/productApi";
 import { useParams } from "react-router-dom";
-import { Box, Button,Badge, Card, CardActions, CircularProgress, IconButton, Stack, styled, Typography } from "@mui/material";
+import { Box, Button,Badge, CircularProgress, IconButton, Stack, styled, Typography } from "@mui/material";
 import { useRef, useState } from "react";
 import DetailsThumb from "./DetailsThumb";
-import { Add, Remove, ShoppingCart } from "@mui/icons-material";
+import { Add, Remove } from "@mui/icons-material";
 import { useDispatch,useSelector } from "react-redux";
 import { addProduct } from "../../Redux/cartSlice";
 import { decreaseQuantity, increaseQuantity } from "../../Redux/cartSlice";

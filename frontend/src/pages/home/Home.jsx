@@ -9,7 +9,7 @@ import CardActions from "@mui/material/CardActions";
 import { useGetproductByNameQuery } from '../../Redux/productApi'
 import { useDispatch, useSelector } from 'react-redux'
 import { addProduct } from "../../Redux/cartSlice";
-import { Add, Remove, ShoppingCart } from "@mui/icons-material";
+import { Add, Remove } from "@mui/icons-material";
 import { decreaseQuantity, increaseQuantity } from "../../Redux/cartSlice";
 import { useNavigate } from "react-router-dom";
 
