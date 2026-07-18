@@ -12,6 +12,19 @@ export const productApi = createApi({
   }),
 })
 
+//to get one profuct by id
+export const oneProductApi = createApi({
+  reducerPath: 'oneProductApi',
+  baseQuery: fetchBaseQuery({ baseUrl: 'http://localhost:5000/' }),
+  endpoints: (builder) => ({
+    getOneProductName: builder.query({
+      query: (name) => `products/${name}`,
+    }),
+  }),
+})
+
+
 // Export hooks for usage in functional components, which are
 // auto-generated based on the defined endpoints
 export const { useGetproductByNameQuery } = productApi
+export const { useGetOneProductNameQuery } = oneProductApi

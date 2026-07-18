@@ -22,6 +22,7 @@ const Home = () => {
       const {selectedProducts, selectedProductsID} = useSelector((state) => state.cartt)
   const navigate = useNavigate();
     const dispatch = useDispatch()
+    //data => all products
     const { data, error, isLoading } = useGetproductByNameQuery()
     console.log(data)
   const theme = useTheme();
@@ -59,7 +60,7 @@ const Home = () => {
             <CardMedia
               component="img"
               height="277"
-              image={item.imageLink}
+              image={item.imageLink[0]}
               alt="Paella dish"
               onClick={() => {
                 navigate(`Product-Details/${item.id}`)
